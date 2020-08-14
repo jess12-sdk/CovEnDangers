@@ -14,9 +14,6 @@ TextureImporter:
   - first:
       213: -5275638940940817258
     second: man-stop_3
-  - first:
-      213: 9101543437071386819
-    second: man-stop_4
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -117,10 +114,10 @@ TextureImporter:
       name: man-stop_0
       rect:
         serializedVersion: 2
-        x: 6
-        y: 6
-        width: 35
-        height: 48
+        x: 8
+        y: 40
+        width: 196
+        height: 298
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -138,10 +135,10 @@ TextureImporter:
       name: man-stop_1
       rect:
         serializedVersion: 2
-        x: 59
-        y: 6
-        width: 34
-        height: 48
+        x: 248
+        y: 40
+        width: 187
+        height: 283
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -159,10 +156,10 @@ TextureImporter:
       name: man-stop_2
       rect:
         serializedVersion: 2
-        x: 111
-        y: 6
-        width: 35
-        height: 48
+        x: 450
+        y: 40
+        width: 175
+        height: 279
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -180,10 +177,10 @@ TextureImporter:
       name: man-stop_3
       rect:
         serializedVersion: 2
-        x: 163
-        y: 6
-        width: 35
-        height: 48
+        x: 661
+        y: 40
+        width: 164
+        height: 279
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -193,27 +190,6 @@ TextureImporter:
       bones: []
       spriteID: 69c2102b55a29c6b0800000000000000
       internalID: -5275638940940817258
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: man-stop_4
-      rect:
-        serializedVersion: 2
-        x: 216
-        y: 6
-        width: 35
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3c88d62b88d2f4e70800000000000000
-      internalID: 9101543437071386819
       vertices: []
       indices: 
       edges: []
