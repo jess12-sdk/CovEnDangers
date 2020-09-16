@@ -114,13 +114,13 @@ TextureImporter:
       name: man-stop_0
       rect:
         serializedVersion: 2
-        x: 8
+        x: 32
         y: 40
-        width: 196
-        height: 298
+        width: 174
+        height: 279
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 1}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -135,12 +135,12 @@ TextureImporter:
       name: man-stop_1
       rect:
         serializedVersion: 2
-        x: 248
+        x: 245
         y: 40
-        width: 187
-        height: 283
+        width: 173
+        height: 282
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -156,12 +156,12 @@ TextureImporter:
       name: man-stop_2
       rect:
         serializedVersion: 2
-        x: 450
+        x: 456
         y: 40
-        width: 175
+        width: 168
         height: 279
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -182,7 +182,7 @@ TextureImporter:
         width: 164
         height: 279
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
