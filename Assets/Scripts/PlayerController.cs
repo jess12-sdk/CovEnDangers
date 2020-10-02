@@ -68,6 +68,7 @@ public class PlayerController : MonoBehaviour
                 rig.AddForce(new Vector2(0f, JumpForce), ForceMode2D.Impulse);
                 doubleJump = true;
                 anim.SetBool("jump", true);
+                GetComponent<AudioSource>().Play();
             }
             else
             {
@@ -75,6 +76,7 @@ public class PlayerController : MonoBehaviour
                 {
                     rig.AddForce(new Vector2(0f, JumpForce), ForceMode2D.Impulse);
                     doubleJump = false;
+                    GetComponent<AudioSource>().Play();
                 }
             }
         }
@@ -86,6 +88,11 @@ public class PlayerController : MonoBehaviour
         {
             isJumping = false;
             anim.SetBool("jump", false);
+        }
+        if(collision.gameObject.tag == "cliff")
+        {
+            GameController.instance.ShowGameOver();
+            Destroy(gameObject);
         }
     }
 
